@@ -29,6 +29,15 @@ class MainDriver{
         Employee e = new TestingInheritance("Adi", 27, 30000);
         e.printDetails();
 
+        //Complex Number Class
+        Complex n1 = new Complex(2, 3);
+        Complex n2 = new Complex(3, 4);
+        n1.add(n2);
+        System.out.println("Update After Add: " + n1.print());
+
+        n1.multiply(n2);
+        System.out.println("Updated After Multiply: " +n1.print());
+
     }
 
 }
